@@ -8,7 +8,7 @@
         <table class="table table-condensed">
             {% for t in tableFields|filter(v => profile[v] is defined and profile[v] is not empty) %}
                 <tr>
-                    <td>{{ translatorConditional('mautic.integration.common.' ~ t, 'mautic.integration.Foursquare.' ~ t) }}</td>
+                    <td>{{ translatorConditional('mautic.integration.scripts.' ~ t, 'mautic.integration.Foursquare.' ~ t) }}</td>
                     <td>{{ profile[t] }}</td>
                 </tr>
             {% endfor %}

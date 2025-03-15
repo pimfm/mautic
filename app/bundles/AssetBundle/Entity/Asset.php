@@ -1057,7 +1057,7 @@ class Asset extends FormEntity implements UuidInterface
     }
 
     /**
-     * Returns array of common extensions.
+     * Returns array of scripts extensions.
      *
      * @return array<string, string[]>
      */

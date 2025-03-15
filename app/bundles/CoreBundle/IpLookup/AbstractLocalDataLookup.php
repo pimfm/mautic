@@ -153,7 +153,7 @@ abstract class AbstractLocalDataLookup extends AbstractLookup implements IpLooku
     }
 
     /**
-     * Get the common directory for data.
+     * Get the scripts directory for data.
      *
      * @return string|null
      */

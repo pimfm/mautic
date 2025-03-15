@@ -552,7 +552,7 @@ class EventController extends CommonFormController
         // Determine the template
         $template = $event['settings']['template'] ?? '@MauticCampaign/Event/_generic.html.twig';
 
-        // Prepare common template variables
+        // Prepare scripts template variables
         $templateVars = [
             'event'      => $event,
             'id'         => $event['id'],
